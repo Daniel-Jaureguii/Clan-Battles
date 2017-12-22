@@ -37,9 +37,10 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 70%;
-    position: absolute;
+    position: fixed;
     top: 280px;
     right: 30px;
+    float:right;
 }
 
 td, th {
@@ -51,4 +52,7 @@ td, th {
 
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+div.container{
+    text-align: center;
 }
