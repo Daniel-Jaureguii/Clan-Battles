@@ -4,7 +4,7 @@ body{
 div.w3-container{
     max-width:500px;
     margin: auto;
-    border: 3px solid #73AD21;
+    border: 3px solid black;
     position: absolute;
     top: 280px;
     left: 0;
@@ -32,4 +32,23 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    position: absolute;
+    top: 280px;
+    right: 30px;
+}
+
+td, th {
+    background-color: #dddddd;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
