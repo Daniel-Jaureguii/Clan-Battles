@@ -25,5 +25,25 @@
     <div class="jumbotron text-center">
   <h1>Free Agents</h1>
 </div>
+<div class ="container">
+<form onSubmit="JavaScript:handleClick()">
+  Enter Psn Name:<br>
+  <input type="text" name="PSN"id="PSN">
+  <input type="submit" value="Submit">
+</form>
+</div>
 </body>
+<script>
+    function handleClick(event){
+        //alert("inside");
+      var value= document.getElementById("PSN").value;
+      if(value==null){
+          alert("Must enter a correct PSN name");
+      }
+      else{
+          
+      }
+        //alert(value);
+    }
+</script>
 </html>
