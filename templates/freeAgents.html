@@ -26,24 +26,52 @@
   <h1>Free Agents</h1>
 </div>
 <div class ="container">
-<form onSubmit="JavaScript:handleClick()">
-  Enter Psn Name:<br>
-  <input type="text" name="PSN"id="PSN">
-  <input type="submit" value="Submit">
-</form>
+    
+    <iframe width="900" height="715"align="middle"
+src="https://docs.google.com/spreadsheets/d/1zwJ5W59wo5bdNGU_Fc_ceYToHKvrXJI3705m2x7HLxw/edit?usp=sharing">
+</iframe>
+  <!--Enter Psn Name:<br>-->
+  <!--<input type="text" name="PSN"id="PSN">-->
+  <!--<input type="submit" value="Submit"onclick="JavaScript:handleClick()">-->
 </div>
+     <!--<div id="tablePrint"> </div>-->
 </body>
-<script>
-    function handleClick(event){
-        //alert("inside");
-      var value= document.getElementById("PSN").value;
-      if(value==null){
-          alert("Must enter a correct PSN name");
-      }
-      else{
+// <script>
+// var tracker=0;
+// var agents=[];
+//     function handleClick(event){
+//         //alert("inside");
+        
+//       var value= document.getElementById("PSN").value;
+      
+//       if(value==''){
+//           alert("Must enter a correct PSN name");
+//       }
+//       else{
+//           agents[tracker]=value;
+//          // alert(agents[tracker]);
+//           var myTable = '<table>';
+//           myTable += '<tr>';
+//           myTable += '<th>';
+//           myTable += 'PSN Name';
+//           myTable += '</th>';
+//           myTable += '</tr>';
           
-      }
-        //alert(value);
-    }
-</script>
+//           for(var i=0;i<agents.length;i++){
+//               myTable += '<tr>';
+//              myTable += '<td>';
+//           myTable += agents[i];
+//           myTable += '</td>';
+//           myTable += '</tr>';
+//           }
+         
+//           myTable += '</table>';
+//           document.getElementById('tablePrint').innerHTML = myTable;
+//           tracker++;
+
+//       }
+      
+//         //alert(value);
+//     }
+// </script>
 </html>
