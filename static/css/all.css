@@ -2,12 +2,14 @@ body{
     background-image: url(https://images6.alphacoders.com/319/thumb-1920-319878.jpg);
 }
 div.w3-container{
-    max-width:500px;
-    margin: auto;
+     width: 50%;
+     margin: 0 auto !important;
+    text-align: center;
+    /*max-width:500px;*/
+    /*margin: auto;*/
     border: 3px solid black;
-    position: absolute;
     top: 280px;
-    left: 0;
+    /*left: 100;*/
     
 }
 ul {
@@ -37,10 +39,9 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 70%;
-    position: fixed;
-    top: 280px;
-    right: 30px;
-    float:right;
+    width: 50%;
+     margin: 0 auto !important;
+
 }
 
 td, th {
@@ -56,3 +57,4 @@ tr:nth-child(even) {
 div.container{
     text-align: center;
 }
+.mySlides {display:none;}

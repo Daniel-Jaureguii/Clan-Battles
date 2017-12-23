@@ -13,7 +13,7 @@
       <link rel="icon" 
       type="image/png" 
       href="https://cdn2.iconfinder.com/data/icons/electronics/512/Game_Controller-512.png">
-  <style>
+        <style>
     body {
       box-sizing: border-box;
       margin: 0;
@@ -58,54 +58,29 @@
       margin: 10px;
     }
   </style>
-</head>
+      </head>
 <body>
     <ul>
   <li><a class="active" href="/">Home</a></li>
   <li><a href="/rankings">Rankings</a></li>
   <li><a href="/play">BestPlay</a></li>
-  <li><a href="#about">FreeAgents</a></li>
+  <li><a href="/freeAgents">FreeAgents</a></li>
   <li><a href="/chat">Chatroom</a></li>
 </ul>
     <div class="jumbotron text-center">
-  <h1>Clan Battles</h1>
+ 
+  <h1>Chat Room</h1>
+       </div>
+  <div class="w3-container w3-gray">
+  <div class="members-count"></div>
+  <div class="members-list"></div>
+  <div class="messages"></div>
+  <form class="message-form" onsubmit="return false;">
+    <input class="message-form__input" placeholder="Type a message.." type="text"/>
+    <input class="message-form__button" value="Send" type="submit"/>
+  </form>
+  </div>
 </div>
-  <table>
-  <tr>
-    <th>Clan</th>
-    <th>Wins</th>
-    <th>Losses</th>
-    <th>Rank</th>
-  </tr>
-  <tr>
-      <td>KcK</td>
-      <td>5</td>
-      <td>2</td>
-      <td>3rd</td>
-
-  </tr>
-</table>
-<div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides" src="../static/imgs/cod1.jpg" style="width:100%">
-  <img class="mySlides" src="../static/imgs/cod2.jpg" style="width:100%">
-  <img class="mySlides" src="../static/imgs/cod3.jpg" style="width:100%">
-</div>
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>
-  <script src="../static/script.js"></script>
+<script src="../static/script.js"></script>
 </body>
 </html>
