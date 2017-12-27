@@ -6,6 +6,9 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     return render_template('index.html')
+@app.route('/rosters')
+def rosters():
+    return render_template('rosters.html')
 @app.route('/play')
 def playOfTheWeek():
     return render_template('playOfTheWeek.html')
